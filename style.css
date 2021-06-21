@@ -1,0 +1,188 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.main-content {
+  background: #219ebc;
+}
+#mainNavbar {
+  font-size: 1.2rem;
+  font-weight: 100;
+  background-color: #219ebc;
+}
+#mainNavbar .nav-link {
+  color: black;
+}
+#mainNavbar .nav-link:hover {
+  color: #f1faee;
+  background-color: #f1faee23;
+  transform: translateY(-5px);
+  transition: all 0.4s ease;
+  border-radius: 10px;
+  text-align: center;
+}
+#mainNavbar .navbar-brand {
+  color: #f1faee;
+  font-size: 1.2rem;
+}
+.navbar-dark .navbar-toggler {
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 2px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  border: 2px solid #f1faee;
+}
+.navbar-dark .navbar-toggler:checked + .navbar-toggler-icon {
+  transform: rotate(135deg);
+}
+/* Home Section */
+.home-title h1 {
+  color: #f1faeef3;
+}
+.home-title h1:nth-child(2) {
+  color: #e76f51;
+}
+.home-title h1:nth-child(3) {
+  color: #ffb703;
+}
+.home-title h1:nth-child(4) {
+  color: #caffbf;
+}
+.home-title h1:nth-child(5) {
+  color: #ffc6ff;
+}
+.home-title h1:nth-child(6) {
+  color: #e9edc9;
+}
+.home-title h1 {
+  font-weight: 100;
+  font-size: 2.4rem;
+}
+.home-title span {
+  color: black;
+  font-weight: 500;
+}
+/* .navbar .scrolled {
+  background: #6b3629;
+  transition: background 0.5s;
+} */
+@media (max-width: 1600px) {
+  .home-title h1 {
+    font-weight: 100;
+    font-size: 1.6rem;
+  }
+}
+/*End Home Section */
+/* About & Destinations Section */
+.destination h2 {
+  color: #f1faee;
+  font-weight: 100;
+  font-size: 1.7rem;
+}
+
+svg {
+  color: #eeeeee;
+}
+svg:hover {
+  color: #e63946;
+  transform: translateY(-5px);
+  transition: all 0.5s ease;
+}
+#destinations .content {
+  margin-bottom: 100px;
+}
+.img-fluid {
+  max-width: 100%;
+  min-height: 320px;
+  max-height: auto;
+  border-radius: 20px;
+}
+@media (max-width) {
+  .img-fluid {
+    max-width: 100%;
+    min-height: auto;
+    max-height: auto;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 1270px) {
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  .destination p {
+    font-size: 1rem;
+  }
+  .destination h2 {
+    color: #f1faee;
+    font-weight: 100;
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 1270px) and (max-width: 1400px) {
+  #about p,
+  #choices p {
+    font-size: 0.9rem;
+  }
+  .destination h2 {
+    color: #f1faee;
+    font-weight: 100;
+    font-size: 1.3rem;
+  }
+  #footer .copyright {
+    font-size: 16rem;
+  }
+}
+@media (min-width: 1400px) {
+  #about p,
+  #choices p {
+    font-size: 1.3rem;
+  }
+}
+/* End About & Destinations Section */
+/* Footer Section */
+#footer .footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+#footer .social {
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+}
+#footer a {
+  margin: 0 10px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+#footer a:hover {
+  transform: translateY(-3px);
+  transition: all 0.3s;
+}
+#footer p {
+  font-size: 0.45rem;
+}
+#footer p i {
+  color: #e63946;
+}
+#footer .fa-twitter {
+  color: rbg(29, 161, 242);
+  padding: 4px;
+}
+#footer .fa-github {
+  color: black;
+}
+#footer .fa-instagram {
+  color: white;
+  padding: 4px;
+  padding-bottom: 5px;
+  background-color: rgb(221, 77, 76);
+  border-radius: 50%;
+}
+#footer .fa-linkedin {
+  background: rgb(10, 102, 194);
+  color: #fff;
+  padding: 4px;
+  border-radius: 2px;
+}
