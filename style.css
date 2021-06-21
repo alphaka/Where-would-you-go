@@ -79,7 +79,6 @@ body {
   font-weight: 100;
   font-size: 1.7rem;
 }
-
 svg {
   color: #eeeeee;
 }
@@ -110,7 +109,6 @@ svg:hover {
     font-size: 1.2rem;
     line-height: 1.8rem;
   }
-
   .destination p {
     font-size: 1rem;
   }
@@ -129,9 +127,6 @@ svg:hover {
     color: #f1faee;
     font-weight: 100;
     font-size: 1.3rem;
-  }
-  #footer .copyright {
-    font-size: 16rem;
   }
 }
 @media (min-width: 1400px) {
